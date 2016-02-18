@@ -20,17 +20,17 @@ public class MainPageSteps {
     @Autowired
     private MainPage mainPage;
 
-    @Given("^user is on the main page")
-    public void user_is_on_the_main_page() throws Throwable {
-        LOGGER.info("Step start: user in on the main page");
+    @Given("^user is open main page")
+    public void userIsOpenMainPage() throws Throwable {
+        LOGGER.info("Step start: user is open main page");
         mainPage.open();
         assertTrue("Main Page should be opened",
                 mainPage.isPageOpened());
     }
 
-    @And("^location is set to \"([^\"]*)\"$")
+    @And("^set location to \"([^\"]*)\"$")
     public void locationIsSetTo(String value) throws Throwable {
-        LOGGER.info(String.format("Step start: location is set to <%s>", value));
+        LOGGER.info(String.format("Step start: set location to <%s>", value));
         mainPage.setLocationInput(value);
     }
 

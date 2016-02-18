@@ -1,8 +1,8 @@
 Feature: User can search for an apartment without specific check-in and check-out date
 
   Scenario: Search apartment without dates
-    Given user is on the main page
-    And location is set to "London, United Kingdom"
+    Given user is open main page
+    And set location to "London, United Kingdom"
     And check-in date is ""
     And check-out date is ""
     When user press the Search button
