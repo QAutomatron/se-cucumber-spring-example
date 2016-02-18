@@ -11,7 +11,6 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * Steps for Result Page
- * @author Evgenii Skiridov <e.skiridov@corp.mail.ru>
  */
 public class ResultPageSteps {
 
