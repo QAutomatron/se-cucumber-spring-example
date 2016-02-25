@@ -1,4 +1,4 @@
-## java-homework
+## Selenium Cucumber Spring example
 Basic test automation project. Based on Cucumber, Selenium and Spring
 
 ### Installation
